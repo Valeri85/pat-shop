@@ -1,0 +1,50 @@
+.btn {
+	--btn-padding: 0.75em 1.75em;
+	--btn-bg: var(--clr-primary-400);
+	--btn-border-radius: var(--border-radius-400);
+	--btn-clr-text: var(--clr-primary-100);
+	--btn-outline-width: 2px;
+	--btn-outline: none;
+
+	padding: var(--btn-padding);
+	background-color: var(--btn-bg);
+	border: 0;
+	border-radius: var(--btn-border-radius);
+	font-family: var(--font-family-secondary);
+	font-size: var(--font-size-button);
+	font-weight: var(--font-weight-500);
+	letter-spacing: var(--letter-spacing-400);
+	color: var(--btn-clr-text);
+	outline: var(--btn-outline);
+}
+
+.primary {
+	@extend .btn;
+	justify-self: flex-start;
+}
+
+.primaryTransparent {
+	@extend .btn;
+	--btn-bg: transparent;
+	--btn-outline: var(--btn-outline-width) solid var(--clr-primary-100);
+}
+
+.secondary {
+	@extend .btn;
+	--btn-bg: var(--clr-secondary-400);
+	--btn-clr-text: var(--clr-primary-200);
+}
+
+.secondaryInverse {
+	@extend .btn;
+	--btn-bg: transparent;
+	--btn-clr-text: var(--clr-secondary-400);
+	--btn-outline: var(--btn-outline-width) solid var(--clr-secondary-400);
+}
+
+.fancy {
+	@extend .btn;
+	--btn-padding: 0.5em 1.5em;
+	--btn-border-radius: 50%;
+	--btn-bg: var(--clr-secondary-400);
+}

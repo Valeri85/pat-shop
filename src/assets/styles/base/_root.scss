@@ -10,8 +10,9 @@
 	--clr-accent-400: hsl(186, 75%, 38%);
 
 	/* Border Radiuses */
-	--border-radius-300: 0.35em;
-	--border-radius-400: 0.6em;
+	--border-radius-400: 2em;
+	--border-radius-500: 2.5em;
+	--border-radius-900: 100%;
 
 	/* Font Families */
 	--font-family-primary: 'Josefin Sans', sans-serif;
@@ -19,8 +20,17 @@
 
 	/* Font Sizes */
 	--font-size-body: 1.4rem;
+	--font-size-logo: 2.1rem;
 	--font-size-h1: 9.6rem;
-	--font-size-h2: 4.6rem;
+	--font-size-sectionTitle: 4.6rem;
+	--font-size-subtitle: 2.4rem;
+	--font-size-button: 2rem;
+	--font-size-badge: 8.1rem;
+	--font-size-petCategory: 3.3rem;
+	--font-size-petName: 1.7rem;
+	--font-size-slide-title: 2.6rem;
+	--font-size-slide-text: 2rem;
+	--font-size-section-text: 2.2rem;
 
 	/* Font Weights */
 	--font-weight-400: 400;
@@ -29,7 +39,8 @@
 	--font-weight-700: 700;
 
 	/* Letter Spacing */
-	// --letter-spacing-400: ;
+	--negative-letter-spacing-100: -0.05em;
+	--letter-spacing-400: 0.1em;
 
 	/* Animations */
 	--animation-time-400: 500ms;

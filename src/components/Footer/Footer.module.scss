@@ -1,0 +1,28 @@
+footer {
+	padding-block: 7em;
+	background-color: var(--clr-secondary-400);
+	background-image: url('../../assets/images/svg/scratch-3.svg');
+	background-repeat: no-repeat;
+	background-position: center 50px;
+
+	a {
+		color: white;
+	}
+}
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	.logo {
+		font-size: 6rem;
+		color: var(--clr-primary-400);
+	}
+
+	ul {
+		display: flex;
+		gap: 1em;
+		font-size: 1.6rem;
+	}
+}

@@ -1,0 +1,47 @@
+.flexContainer {
+	display: flex;
+	gap: 2em;
+
+	figure,
+	.boySectionContent {
+		width: 50%;
+	}
+}
+
+.boySectionContent {
+	display: grid;
+	place-content: center;
+	position: relative;
+
+	p {
+		width: 475px;
+		height: 375px;
+		padding: 1.5em;
+		background-image: url('../../assets/images/svg/boy-content-blob.svg');
+		background-repeat: no-repeat;
+		font-size: var(--font-size-section-text);
+	}
+}
+
+.sliderControls {
+	position: absolute;
+	bottom: 1em;
+	left: 3em;
+
+	& a:last-of-type {
+		margin-left: -1em;
+		outline: 2px solid white;
+	}
+}
+
+figure {
+	position: relative;
+}
+
+.controls {
+	position: absolute;
+	bottom: -1.8em;
+	left: 50%;
+
+	transform: translate(-50%);
+}

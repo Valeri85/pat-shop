@@ -1,0 +1,9 @@
+.petsList {
+	display: inline-grid;
+	grid:
+		'pet1 pet3 pet4 pet6 pet8 pet10 pet12'
+		'pet2 pet3 pet5 pet7 pet9 pet11 pet13';
+	gap: 1em;
+	align-items: center;
+	margin-right: -12.5em;
+}

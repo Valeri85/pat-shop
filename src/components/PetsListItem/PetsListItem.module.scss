@@ -1,0 +1,63 @@
+.petName {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	margin-top: -2.5em;
+	color: var(--clr-primary-100);
+}
+
+.category {
+	font-size: var(--font-size-petCategory);
+	text-transform: capitalize;
+}
+
+.name {
+	font-size: var(--font-size-petName);
+	text-transform: uppercase;
+}
+
+.outline {
+	border-radius: 50%;
+	outline: 3.5px solid var(--clr-primary-100);
+}
+
+.pet1 {
+	grid-area: pet1;
+}
+.pet2 {
+	grid-area: pet2;
+}
+.pet3 {
+	grid-area: pet3;
+}
+.pet4 {
+	grid-area: pet4;
+}
+.pet5 {
+	grid-area: pet5;
+}
+.pet6 {
+	grid-area: pet6;
+}
+.pet7 {
+	grid-area: pet7;
+}
+.pet8 {
+	grid-area: pet8;
+}
+.pet9 {
+	grid-area: pet9;
+}
+.pet10 {
+	grid-area: pet10;
+}
+.pet11 {
+	grid-area: pet11;
+}
+.pet12 {
+	grid-area: pet12;
+}
+.pet13 {
+	grid-area: pet13;
+}

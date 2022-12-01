@@ -1,0 +1,51 @@
+.flexContainer {
+	display: flex;
+
+	h2 {
+		margin-block: 1em;
+	}
+}
+
+.dogHalf,
+.subscribeHalf {
+	width: 50%;
+	padding-inline: 3em;
+}
+
+.dogHalf {
+	background-color: var(--clr-accent-300);
+	background-image: url('../../assets/images/svg/must.svg');
+	background-repeat: no-repeat;
+	background-position: 50px center;
+
+	img {
+		margin: auto;
+	}
+}
+
+.subscribeHalf {
+	background-color: var(--clr-primary-400);
+	background-image: url('../../assets/images/svg/flame.svg');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+form {
+	display: flex;
+	gap: 1em;
+	color: white;
+	position: relative;
+
+	label {
+		position: absolute;
+		font-size: 2.6rem;
+		top: -0.8em;
+	}
+
+	input {
+		background-color: transparent;
+		border: 0;
+		border-bottom: 1px solid white;
+		width: 60%;
+	}
+}

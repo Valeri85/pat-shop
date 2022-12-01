@@ -1,0 +1,45 @@
+.sectionEveryone {
+	background-color: var(--clr-accent-400);
+	background-image: url('../../assets/images/svg/spiral-2.svg'),
+		url('../../assets/images/svg/scratch-2.svg');
+	background-repeat: no-repeat;
+	background-position: 0 55%, 100% 90%;
+	color: var(--clr-primary-200);
+}
+
+.flexContainer {
+	display: flex;
+	gap: 2em;
+
+	figure,
+	.everyoneSectionContent {
+		width: 50%;
+	}
+}
+
+.everyoneSectionContent {
+	display: grid;
+
+	h2 {
+		font-size: var(--font-size-sectionTitle);
+		line-height: 1.2;
+	}
+
+	p,
+	ul {
+		font-size: var(--font-size-section-text);
+	}
+
+	ul li {
+		padding-left: 0.5em;
+	}
+
+	ul li::marker {
+		content: url('../../assets/images/icons/svg/marker.svg');
+	}
+
+	a {
+		justify-self: flex-start;
+		align-self: center;
+	}
+}

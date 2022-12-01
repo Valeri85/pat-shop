@@ -1,0 +1,18 @@
+.navItem:first-child {
+	position: relative;
+}
+
+.navItem:first-child::before {
+	content: url('../../assets/images/svg/about-link-bg.svg');
+	position: absolute;
+	inset: 0 auto auto -100%;
+	z-index: -1;
+}
+
+.navItem:first-child .navLink {
+	color: var(--clr-primary-100);
+}
+
+.navLink {
+	color: var(--clr-secondary-400);
+}

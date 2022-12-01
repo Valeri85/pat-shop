@@ -1,12 +1,16 @@
 // React
 import React from 'react';
 // Components
-import { Navigation } from '../Navigation/Navigation';
+import { Nav } from '../Nav/Nav';
+import { Hero } from '../Hero/Hero';
+// Styles
+import styles from './Header.module.scss';
 
-export const Header: React.FC = () => {
-	return (
-		<header className="header">
-			<Navigation />
-		</header>
-	);
-};
+export const Header: React.FC = () => (
+	<header className={styles.header}>
+		<div className="container">
+			<Nav />
+			<Hero />
+		</div>
+	</header>
+);

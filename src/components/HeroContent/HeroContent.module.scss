@@ -1,0 +1,38 @@
+.heroContent {
+	display: grid;
+	place-content: center;
+}
+
+.subtitle {
+	position: relative;
+	padding-left: 4em;
+	font-family: var(--font-family-secondary);
+	font-size: var(--font-size-subtitle);
+	color: var(--clr-accent-400);
+}
+
+.subtitle::before {
+	content: url('../../assets/images/icons/svg/arrow-fancy.svg');
+	position: absolute;
+	inset: 0.5em auto auto 1em;
+}
+
+.mainTitle {
+	margin-block: 0.5em;
+	font-size: var(--font-size-h1);
+	font-weight: var(--font-weight-700);
+	line-height: 1em;
+	letter-spacing: var(--negative-letter-spacing-100);
+	text-transform: uppercase;
+
+	& span {
+		position: relative;
+		color: var(--clr-primary-400);
+	}
+
+	& span::after {
+		content: url('../../assets/images/svg/lines.svg');
+		position: absolute;
+		inset: -100% -20% auto auto;
+	}
+}
